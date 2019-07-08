@@ -1,0 +1,216 @@
+html body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background: black;
+}
+
+main {
+  width: auto;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  margin-top: 5%;
+  padding: 5%;
+  padding-top: 14%;
+  font-family: 'Itim', cursive;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  z-index: 99;
+}
+
+input {
+  font-size: 1.3em !important;
+  border-bottom: none !important;
+  outline: none !important;
+}
+
+a {
+  text-decoration:none;
+  color: #00bfa5 !important;
+}
+
+a:hover {
+  color: #64ffda !important;
+}
+
+.titulo {
+  display: inline;
+  margin-right: 3%;
+}
+
+.barra {
+  background: rgba(0,0,0,0.6);
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-right: 2%;
+}
+
+.titulo:hover .subitem {
+  color: #00bfa5;
+  display: inline;
+}
+
+.subitem {
+  display: none;
+  color: white;
+}
+
+.listaOculta {
+  display: inline;
+  padding-right: 1%;
+}
+
+.color {
+  background-color: grey !important;
+}
+
+.color:hover {
+  background-color: #00bfa5 !important;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 2%; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  font-size: 1.5em;
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+  color:#818181 !important;
+	padding: 20px 25px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li {background: rgba(0,0,0,0.5);}
+
+.social ul li a:hover {
+	background: rgba(0,0,0,0.8); /* Cambiamos el fondo cuando el usuario pase el mouse */
+	padding: 20px 35px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  color: #00bfa5 !important;
+}
+
+.images {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      /*background: url(img/00.jpg) no-repeat 50% 50%;*/
+      background-size: cover;
+      z-index: -10;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -50;
+}
+
+.bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+.bg1 {
+      display: block;
+      background: url(img/01.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg2 {
+      display: block;
+      background: url(img/02.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg4 {
+      display: block;
+      background: url(img/04.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg5 {
+      display: block;
+      background: url(img/05.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg6 {
+      display: block;
+      background: url(img/06.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg7 {
+      display: block;
+      background: url(img/07.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg8 {
+      display: block;
+      background: url(img/03.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.social .youtube a:hover {
+  color: red !important;
+}
+
+.social .face a:hover {
+  color: #4267b2 !important;
+}
+
+.social .twitter a:hover {
+  color: #38A1F3 !important;
+}
+
+.social .insta a:hover {
+  color: pink !important;
+}
+
+.social .twitch a:hover {
+  color: purple !important;
+}
+
+.social .whats a:hover {
+  color: #4fce5d !important;
+}
+
+.social .duo a:hover {
+  color: #7fce5d !important;
+}
+
+.social .reddit a:hover {
+  color: orange !important;
+}
+
+.social .git a:hover {
+  color: white !important;
+}
+
+.social .gmail a:hover {
+  color: white !important;
+}
+
+.social .amazon a:hover {
+  color: orange !important;
+}
+
+.social .bitcoin a:hover {
+  color: yellow !important;
+}
+
