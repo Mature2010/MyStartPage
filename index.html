@@ -22,6 +22,7 @@
 	<div class="images">
         <span class="bg bg1"></span>
         <span class="bg bg2"></span>
+        <span class="bg bg3"></span>
         <span class="bg bg4"></span>
         <span class="bg bg5"></span>
         <span class="bg bg6"></span>
@@ -42,18 +43,15 @@
 		<ul>
 			<li class="amazon"><a href="https://www.amazon.com.mx/"><ion-icon name="cart"></ion-icon></a></li>
 			<li class="bitcoin"><a href="https://www.bitso.com/wallet"><ion-icon name="logo-bitcoin"></ion-icon></a></li>
+            <li class="git"><a href="https://github.com/"><ion-icon name="logo-github"></ion-icon></a></li>
 			<li class="duo"><a href="https://www.duolingo.com/"><ion-icon name="chatbubbles"></ion-icon></a></li>
 			<li><a href="https://translate.google.com/?hl=es"><ion-icon name="paper"></ion-icon></a></li>
-			<li class="face"><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li class="insta"><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a></li>
             <li class="twitter"><a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a></li>
             <li class="youtube"><a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a></li>
             <li class="twitch"><a href="https://www.twitch.tv"><ion-icon name="logo-twitch"></ion-icon></a></li>
             <li class="gmail"><a href="https://www.gmail.com/"><ion-icon name="mail"></ion-icon></a></li>
             <li class="whats"><a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-            <li class="git"><a href="https://github.com/"><ion-icon name="logo-github"></ion-icon></a></li>
             <li class="gmail"><a href="https://news.google.com/?hl=es-419&gl=MX&ceid=MX:es-419"><ion-icon name="book"></ion-icon></a></li>
-            <li class="reddit"><a href="https://reddit.com/"><ion-icon name="logo-reddit"></ion-icon></a></li>
 		</ul>
 	</div>
 
@@ -63,14 +61,21 @@
 		    		<main class="">
 			    		<center>
 							<ul class="item">
+								<li class="titulo menu-item-3"><span>&nbsp;/A/</span>
+							        <ul class="subitem">
+							            <li class="listaOculta"><a href="https://developer.amazon.com/alexa/console/ask">Developer console Alexa</a></li>
+							            <li class="listaOculta"><a href="https://aws.amazon.com/es/">AWS</a></li>
+							            <li class="listaOculta"><a href="https://alexa.amazon.com.mx/spa/index.html#cards">Alexa Configuracions</a></li>
+							        </ul>
+							    </li>
 							    <li class="titulo menu-item-1"><span>&nbsp;/F/</span>
 							        <ul class="subitem">
+							            <li class="listaOculta"><a href="http://www.4chan.org/">4chan</a></li>
 							            <li class="listaOculta"><a href="https://www.netflix.com/browse">Netflix</a></li>
 							            <li class="listaOculta"><a href="https://www.primevideo.com/ref=av_auth_return_redir">Prime Video</a></li>
-							            <li class="listaOculta"><a href="http://www.4chan.org/">4chan</a></li>
 							            <li class="listaOculta"><a href="https://animeflv.net/">AnimeFLV</a></li>
-							            <li class="listaOculta"><a href="http://es.ninemanga.com/">Manga/es</a></li>
-							            <li class="listaOculta"><a href="https://mangakakalot.com/">Manga/en</a></li>
+							            <!-- <li class="listaOculta"><a href="http://es.ninemanga.com/">Manga/es</a></li>
+							            <li class="listaOculta"><a href="https://mangakakalot.com/">Manga/en</a></li> -->
 							        </ul>
 							    </li>
 							    <li class="titulo menu-item-2"><span>&nbsp;/G/</span>
@@ -143,6 +148,7 @@
 
 	      	$(".bg1").fadeOut(1)
 	      	$(".bg2").fadeOut(1)
+	      	$(".bg3").fadeOut(1)
 	      	$(".bg4").fadeOut(1)
 	      	$(".bg5").fadeOut(1)
 	      	$(".bg6").fadeOut(1)
@@ -158,6 +164,11 @@
                   $(".bg2").fadeIn(10);
             }, function() {
                   $(".bg2").fadeOut(10);
+            })
+            $(".menu-item-3").hover(function() {
+                  $(".bg3").fadeIn(10);
+            }, function() {
+                  $(".bg3").fadeOut(10);
             })
             $(".menu-item-4").hover(function() {
                   $(".bg4").fadeIn(10);

@@ -73,7 +73,7 @@ a:hover {
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
-	top: .5%; /* Bajamos la barra 200px de arriba a abajo */
+	top: 10%; /* Bajamos la barra 200px de arriba a abajo */
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
   font-size: 1.5em;
 }
@@ -133,6 +133,12 @@ a:hover {
 .bg2 {
       display: block;
       background: url(img/02.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.bg3 {
+      display: block;
+      background: url(img/09.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
